@@ -85,4 +85,4 @@ All tables are normalized to **BCNF** or **3NF**. See [`normalization/normalizat
 
 ## Author
 
-**SriRam Chowdary Vundavalli** — [GitHub](https://github.com/sriramchow)
+**Sai Varma Challagali** — [GitHub](https://github.com/Saivarma08)
