@@ -1,14 +1,28 @@
-# QUELIFE Animal Shelter — Database Management System
+# QUELIFE Animal Shelter — Relational Database & Reporting System
 
-A relational database system for the **QUELIFE Animal Shelter Organization**, which operates across 7 U.S. states: Wisconsin, Illinois, Missouri, Montana, California, Texas, and Nevada.
+> A fully normalized relational database system for the QUELIFE Animal Shelter Organization, managing animal rescue, adoption, medical care, staff, and financial sponsorships across 7 U.S. states.
 
-Built with **Oracle Database** and **SQL Developer**.
+Built with **Oracle SQL** and **SQL Developer**.
 
 ---
 
-## Overview
+## Project Highlights
 
-QUELIFE manages animal rescue, shelter, adoption, medical care, staff, and financial sponsorships. This database centralizes all operations across all facilities, enabling efficient tracking, reporting, and data integrity.
+- Designed a normalized relational schema covering **9 entities** across facilities in Wisconsin, Illinois, Missouri, Montana, California, Texas, and Nevada
+- Translated business rules (adoption approval, donation thresholds, follow-up status) into SQL constraints: `PK`, `FK`, `NOT NULL`, `CHECK`, `UNIQUE`
+- Authored complete **DDL scripts** and inserted **90+ realistic sample records**
+- Validated data integrity with targeted queries for downstream reporting
+
+---
+
+## Tech Stack
+
+| Category | Tools |
+|----------|-------|
+| Database | Oracle Database |
+| IDE | Oracle SQL Developer |
+| Modeling | ER Diagram (BCNF / 3NF normalized) |
+| Scripting | SQL (DDL, DML, SELECT, UPDATE, DELETE) |
 
 ---
 
